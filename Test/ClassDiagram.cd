@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Customer">
+    <Position X="0.5" Y="1" Width="2.5" />
+    <AssociationLine Name="head" Type="Person" FixedFromPoint="true">
+      <Path>
+        <Point X="3" Y="2.375" />
+        <Point X="4.25" Y="2.375" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="tail" Type="Person" FixedFromPoint="true">
+      <Path>
+        <Point X="3" Y="2" />
+        <Point X="4.25" Y="2" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>BAEAAQAAgBAAAAQAAAIAAAgAAAEIBAwgIAAAAAAACwA=</HashCode>
+      <FileName>Customer.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="head" />
+      <Field Name="tail" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Person">
+    <Position X="4.25" Y="1.75" Width="2" />
+    <AssociationLine Name="healthState" Type="HealthState" FixedFromPoint="true">
+      <Path>
+        <Point X="6.25" Y="3.438" />
+        <Point X="7.25" Y="3.438" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AIAggAAAAAAAQAAAAAAAAAAAAkMGEAAAIEAAAAIAAAA=</HashCode>
+      <FileName>Person.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="healthState" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="HealthState">
+    <Position X="7.25" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAIAAAAAAAAEAAAAAQAAAAA=</HashCode>
+      <FileName>HealthState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
